@@ -1,5 +1,19 @@
 # Hangman
 
+A game everyone knows... Or not?
+
+## How to run
+
+Need to have python and pip to run.
+
+```
+npm install
+npm run setup
+npm run dev
+```
+
+## Gameplay
+
 ```
 Choose difficulty (Easy | Medium | Hard, Default is Hard): Easy
 
