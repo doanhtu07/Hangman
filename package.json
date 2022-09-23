@@ -1,0 +1,26 @@
+{
+  "name": "hangman",
+  "version": "1.0.0",
+  "description": "Hangman game",
+  "main": "main.py",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "pipenv run python main.py",
+    "setup": "run-script-os",
+    "setup:macos": "pip install --user pipx && python3 -m pipx ensurepath && pipx install pipenv",
+    "setup:windows": "pip install --user pipx && python -m pipx ensurepath && pipx install pipenv"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doanhtu07/Hangman.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doanhtu07/Hangman/issues"
+  },
+  "homepage": "https://github.com/doanhtu07/Hangman#readme",
+  "devDependencies": {
+    "run-script-os": "^1.1.6"
+  }
+}
